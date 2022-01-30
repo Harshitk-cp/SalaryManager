@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.147" />
+        <entry key="app/src/main/res/drawable/checkin_box_green.xml" value="0.2777777777777778" />
+        <entry key="app/src/main/res/drawable/drawable_bottom.xml" value="0.147" />
+        <entry key="app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.147" />
+        <entry key="app/src/main/res/drawable/ic_icon_backarrow.xml" value="0.153" />
+        <entry key="app/src/main/res/drawable/ic_icon_calendar.xml" value="0.28055555555555556" />
+        <entry key="app/src/main/res/drawable/ic_icon_close.xml" value="0.147" />
+        <entry key="app/src/main/res/drawable/ic_icon_delete_trash.xml" value="0.28055555555555556" />
+        <entry key="app/src/main/res/drawable/ic_icon_dropdown.xml" value="0.28055555555555556" />
+        <entry key="app/src/main/res/drawable/ic_icon_dropdown_with_circle.xml" value="0.28055555555555556" />
+        <entry key="app/src/main/res/drawable/ic_icon_equal.xml" value="0.147" />
+        <entry key="app/src/main/res/drawable/ic_icon_minus.xml" value="0.147" />
+        <entry key="app/src/main/res/drawable/ic_icon_plus.xml" value="0.147" />
+        <entry key="app/src/main/res/drawable/leaves_box_red.xml" value="0.2777777777777778" />
+        <entry key="app/src/main/res/drawable/listview_sample_image.xml" value="0.147" />
+        <entry key="app/src/main/res/drawable/rounded_buttons.xml" value="0.28055555555555556" />
+        <entry key="app/src/main/res/drawable/rounded_view.xml" value="0.28055555555555556" />
+        <entry key="app/src/main/res/layout/Salary_listview.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_bottom_staff.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_salary_list.xml" value="0.16770833333333332" />
+        <entry key="app/src/main/res/layout/add_salary_dialog.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/bottomsheet_editdetail.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/choose_staff_dialog.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/choose_staff_single_item.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/edit_salary_dialog.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/fragment_salary_list.xml" value="0.29583333333333334" />
+        <entry key="app/src/main/res/layout/month_filter_dialog.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/progress_dialog.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/salary_listview.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/salary_lisview_single_item.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/shimmer_effect_salary_list.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/status_dialog.xml" value="0.25" />
+        <entry key="app/src/main/res/menu/status_menu.xml" value="0.23148148148148148" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

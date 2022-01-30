@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layoutDirection="rtl"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="20dp"
+        android:paddingBottom="30dp"
+        android:layout_centerHorizontal="true">
+
+        <RadioButton
+            android:id="@+id/check_paid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/purple_main"
+            android:text="Paid" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#4d4d4e"/>
+
+        <RadioButton
+            android:id="@+id/check_unpaid"
+            android:layout_width="match_parent"
+            android:buttonTint="@color/purple_main"
+            android:layout_height="wrap_content"
+            android:text="Unpaid" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#4d4d4e"/>
+
+
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

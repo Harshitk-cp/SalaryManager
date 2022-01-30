@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".fragments.SalaryListFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/actionBarSalaryList"
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="26dp"
+            android:background="@drawable/ic_icon_backarrow"
+            android:padding="10dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/actionBarSalaryList" />
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="18dp"
+            android:text="Salary"
+            android:textColor="@color/purple_main"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toRightOf="@id/btnBack"
+            app:layout_constraintTop_toTopOf="@id/actionBarSalaryList" />
+
+        <ImageView
+            android:id="@+id/imgSearch"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="26dp"
+            android:background="@drawable/ic_icon_search"
+            app:layout_constraintRight_toRightOf="@id/actionBarSalaryList"
+            app:layout_constraintTop_toTopOf="@id/actionBarSalaryList" />
+
+        <ImageView
+            android:id="@+id/imgCancel"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="26dp"
+            android:background="@drawable/ic_icon_close"
+            android:visibility="invisible"
+            app:layout_constraintRight_toRightOf="@id/actionBarSalaryList"
+            app:layout_constraintTop_toTopOf="@id/actionBarSalaryList" />
+
+        <EditText
+            android:id="@+id/etSearch"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:backgroundTint="@color/purple_main"
+            android:hint="Search Salary"
+            android:textColor="@color/purple_main"
+            android:textColorHint="#4d4d4e"
+            android:textSize="14sp"
+            android:visibility="gone"
+            app:layout_constraintLeft_toRightOf="@id/btnBack"
+            app:layout_constraintRight_toLeftOf="@id/imgSearch"
+            app:layout_constraintTop_toTopOf="@id/actionBarSalaryList" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/imgEmptyDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/empty_display"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/btnAdd"
+        app:layout_constraintTop_toBottomOf="@+id/btnAllStores" />
+
+
+    <Button
+        android:id="@+id/btnAllStores"
+        style="?android:spinnerStyle"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:drawableEnd="@drawable/ic_icon_dropdown_with_circle"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="All Stores"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/actionBarSalaryList" />
+
+    <Button
+        android:id="@+id/btnDate"
+        style="?android:spinnerStyle"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="26dp"
+        android:backgroundTint="@color/purple_main"
+        android:drawableEnd="@drawable/ic_icon_dropdown_with_circle"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="Jan 2022"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/actionBarSalaryList" />
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/shimmerFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/btnAllStores">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include layout="@layout/shimmer_effect_salary_list" />
+
+            <include layout="@layout/shimmer_effect_salary_list" />
+
+            <include layout="@layout/shimmer_effect_salary_list" />
+
+            <include layout="@layout/shimmer_effect_salary_list" />
+
+            <include layout="@layout/shimmer_effect_salary_list" />
+
+            <include layout="@layout/shimmer_effect_salary_list" />
+
+            <include layout="@layout/shimmer_effect_salary_list" />
+
+            <include layout="@layout/shimmer_effect_salary_list" />
+
+            <include layout="@layout/shimmer_effect_salary_list" />
+
+            <include layout="@layout/shimmer_effect_salary_list" />
+
+            <include layout="@layout/shimmer_effect_salary_list" />
+
+            <include layout="@layout/shimmer_effect_salary_list" />
+
+            <include layout="@layout/shimmer_effect_salary_list" />
+
+            <include layout="@layout/shimmer_effect_salary_list" />
+
+            <include layout="@layout/shimmer_effect_salary_list" />
+
+            <include layout="@layout/shimmer_effect_salary_list" />
+
+            <include layout="@layout/shimmer_effect_salary_list" />
+
+        </LinearLayout>
+
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fitsSystemWindows="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@+id/btnAllStores">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvSalaryList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="160dp"
+            android:clipToPadding="false" />
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:backgroundTint="@color/purple_main"
+        android:text="+ Add"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
